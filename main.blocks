@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="u_Hat]oHGna92wIv*:5K">sprite</variable><variable id="vBBYmT/wyz^/wjuZH-f~">index</variable><variable id="wY!hdQ[?MAM8i%iPJT}w">x</variable><variable id="D)t?~yt|,c+7^.;W(qBn">y</variable></variables><block type="device_button_event" id="S+g2ntTomb-SO$WEogb2" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="pxt_controls_for" id="@UWxsdO*Lo5m4dJ+-[H8"><value name="VAR"><shadow type="variables_get_reporter"><field name="VAR" id="vBBYmT/wyz^/wjuZH-f~">index</field></shadow><block type="variables_get" id="zmlqs=QG,MiLSeV,kGy+"><field name="VAR" id="wY!hdQ[?MAM8i%iPJT}w">x</field></block></value><value name="TO"><shadow type="math_whole_number" id="hw=r7^v+Nmq2GTgqZ1NX"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="Gkka-a!K^t5@3pZXLgUK"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_pause" id="_(1,xrcD.yuC5!A?kBu;"><value name="pause"><shadow type="timePicker" id="M6:F9udG`Z61`C{FWbO|"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="m}xvNd6_Q$qg=JqWHvWe"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_pause" id="k)d{`NA}~r*n$9hZzJ=m"><value name="pause"><shadow type="timePicker" id="xxPB:4[KFBB6)eD_3JEz"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="zPnm_N/=yQBk-!Yd.m^Q" disabled="true" x="299" y="1047"><field name="NAME">Button.A</field></block><block type="device_plot" id="vz4K|{vn#zx4^}Ph*$C$" disabled="true" x="667" y="1423"><value name="x"><shadow type="math_number_minmax" id="@*`$Fg[jN*E6wC#:;0EZ" disabled="true"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">0</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="DLJ]5sJOVi[8b|:d:;;p" disabled="true"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">0</field></shadow></value></block></xml>
